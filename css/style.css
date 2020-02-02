@@ -1,0 +1,456 @@
+/* fonts-famili */
+@font-face {
+  font-family: 'big-john';
+  src: url('../fonts/BIG JOHN.otf');
+  font-weight: bold;
+  font-style: normal;
+}
+/* colors */
+/* Basic setting*/
+* {
+  outline: none;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: 'Amble Regular', arial;
+  margin: 0;
+  padding: 0;
+}
+.button {
+  background-color: transparent;
+  border: 0.6rem solid ;
+  outline: none;
+}
+.header {
+  background: url(../img/header/BG.png) no-repeat center;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+}
+.header-name {
+  padding-top: 32rem;
+  font-size: 4.4rem;
+  font-family: 'big-john', sans-serif;
+  line-height: 6rem;
+  margin-bottom: 6rem;
+}
+.header-name span {
+  font-family: 'Amble Regular', arial;
+}
+.header-paragraph {
+  font-family: 'Amble Regular', arial;
+  font-size: 2.2rem;
+  line-height: 3rem;
+  padding-bottom: 40rem;
+}
+.header-title {
+  text-align: center;
+  padding-top: 12rem;
+  font-family: 'big-john', sans-serif;
+  color: #000000;
+  font-size: 2.5rem;
+  line-height: 6rem;
+  text-transform: uppercase;
+  margin-bottom: 7rem;
+}
+.header-title span {
+  font-family: 'Amble Regular', arial;
+  color: #000000;
+}
+.introduction {
+  background-color: #ffffff;
+}
+.introduction-paragraph {
+  text-align: center;
+  font-family: 'Amble Regular', arial;
+  font-size: 2.2rem;
+  line-height: 3rem;
+  padding-bottom: 11rem;
+}
+.creativity {
+  background: url(../img/creativity/bg.png) no-repeat center;
+  background-size: cover;
+  text-align: center;
+}
+.creativity-button {
+  padding: 3.5rem 10rem;
+  font-size: 2.5rem;
+  font-family: 'big-john', sans-serif;
+  color: #ffffff;
+  margin-top: 20rem;
+  margin-bottom: 20rem;
+}
+.work {
+  padding-bottom: 4rem;
+}
+.work-links {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Amble Regular', arial;
+  margin-bottom: 6.5rem;
+}
+.work-link {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.4rem;
+  margin-left: 2rem;
+}
+.work-link:hover {
+  color: #f4f4f4;
+  text-decoration: none;
+}
+.work-name {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  display: none;
+  font-size: 2rem;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Amble Regular', arial;
+}
+.work-title {
+  font-family: 'big-john', sans-serif;
+  margin: 0;
+}
+.work-naming {
+  padding-top: 1.5rem;
+}
+.work-naming span {
+  color: #d87843;
+  font-family: 'Amble Regular', arial;
+  font-size: 3rem;
+}
+.work-active {
+  font-family: 'big-john', sans-serif;
+}
+.work-block {
+  display: block;
+  position: relative;
+  margin-bottom: 2rem;
+  background-color: #000000;
+}
+.work-block:hover {
+  border: 0.8rem solid #000000;
+}
+.work-block:hover .work-name {
+  display: block;
+}
+.work-block:hover .work-img {
+  opacity: 0.3;
+}
+.work-img {
+  width: 100%;
+}
+.work-button {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  width: 100%;
+  padding: 2rem 6rem;
+  font-family: 'big-john', sans-serif;
+  font-size: 2rem;
+}
+.help {
+  background: url(../img/help/bg.png) no-repeat center;
+  background-size: cover;
+  text-align: center;
+}
+.clients {
+  background-color: #f4f4f4;
+  padding-bottom: 12rem;
+  text-align: center;
+}
+.clients-block {
+  margin-left: 10rem;
+}
+.clients-bloc {
+  margin-left: 13rem;
+}
+.about {
+  padding-bottom: 6rem;
+}
+.about-name {
+  display: none;
+  position: absolute;
+  text-align: center;
+  top: 75%;
+  left: 30%;
+  color: #ffffff;
+}
+.about-naming {
+  font-family: 'Amble Regular', arial;
+  font-size: 1.6rem;
+  padding-top: 0.6rem;
+}
+.about-title {
+  font-family: 'big-john', sans-serif;
+  font-size: 2rem;
+}
+.about-img {
+  opacity: 0.4;
+  width: 100%;
+}
+.about-block {
+  position: relative;
+}
+.about-block:hover {
+  background-color: #000000;
+  border: 0.4rem solid #000000;
+}
+.about-block:hover .about-img {
+  opacity: 0.44;
+}
+.about-block:hover .about-name {
+  display: block;
+}
+.about-paragraph {
+  text-align: center;
+  font-family: 'Amble Regular', arial;
+  font-size: 2.2rem;
+  line-height: 3rem;
+  padding-bottom: 6rem;
+}
+.about-apply {
+  text-align: center;
+  border: 0.2rem solid #000000;
+  height: 100%;
+}
+.about-hiring {
+  padding-top: 6rem;
+  font-family: 'big-john', sans-serif;
+  font-size: 2rem;
+  color: text;
+  line-height: 3.6rem;
+}
+.about-hiring span {
+  font-family: 'Amble Regular', arial;
+  font-weight: bold;
+}
+.about-button {
+  margin-top: 4rem;
+  padding: 2rem 6rem;
+  border: 0.4rem solid #000000;
+  font-family: 'big-john', sans-serif;
+  font-size: 1.8rem;
+}
+.video {
+  background: url(../img/video/[IMG].png) no-repeat center;
+  background-size: cover;
+  text-align: center;
+}
+.video-img {
+  padding-top: 22rem;
+  padding-bottom: 22rem;
+}
+.choose {
+  padding-bottom: 10rem;
+}
+.choose-block {
+  text-align: center;
+}
+.choose-img-block {
+  min-height: 18rem;
+}
+.choose-title {
+  font-family: 'Amble Regular', arial;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.choose-paragraph {
+  padding-top: 3rem;
+  font-family: 'Amble Regular', arial;
+  font-size: 1.3rem;
+}
+.quote {
+  background: url(../img/quote/[IMG].png) no-repeat center;
+  background-size: cover;
+  text-align: center;
+}
+.contacts {
+  background-color: #f4f4f4;
+}
+.contacts-block {
+  padding-top: 12rem;
+}
+.contacts-title {
+  font-family: 'big-john', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+.contacts-paragraph {
+  font-family: 'Amble Regular', arial;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  margin-bottom: 4rem;
+}
+.contacts-link {
+  width: 100%;
+  margin-right: 2rem;
+  text-decoration: none;
+}
+.contacts-form {
+  padding-top: 12rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  background-color: #e4e4e4;
+  padding-bottom: 6rem;
+}
+.contacts-input {
+  border: none;
+  background-color: transparent;
+  border-bottom: 0.2rem solid #afafaf;
+  padding: 1rem 1.5rem;
+  outline: none;
+  font-family: 'Amble Regular', arial;
+  font-size: 1.3rem;
+}
+.contacts-name {
+  margin-right: 4rem;
+  display: inline-block;
+  margin-bottom: 8rem;
+  width: 45%;
+}
+.contacts-email {
+  display: inline-block;
+  width: 45%;
+}
+.contacts-text {
+  width: 100%;
+  display: block;
+  margin-bottom: 4rem;
+}
+.contacts-button {
+  padding: 1rem 3rem;
+  border: 0.3rem solid #000000;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-left: 80%;
+}
+@media (max-width: 768px) {
+  .clients-block {
+    margin-left: 0rem;
+    margin-bottom: 3rem;
+  }
+  .clients-bloc {
+    margin-left: 3rem;
+  }
+  .about-block {
+    margin-bottom: 3rem;
+  }
+  .about-apply {
+    height: 94%;
+  }
+  .contacts-block {
+    margin-bottom: 8rem;
+  }
+}
+@media (max-width: 400px) {
+  .header-name {
+    padding-top: 10rem;
+    font-size: 2.4rem;
+    font-family: 'big-john', sans-serif;
+    line-height: 3rem;
+    margin-bottom: 3rem;
+  }
+  .header-name span {
+    font-family: 'Amble Regular', arial;
+  }
+  .header-paragraph {
+    font-family: 'Amble Regular', arial;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    padding-bottom: 10rem;
+  }
+  .header-title {
+    text-align: center;
+    padding-top: 6rem;
+    font-family: 'big-john', sans-serif;
+    color: #000000;
+    font-size: 2rem;
+    line-height: 6rem;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+  }
+  .header-title span {
+    font-family: 'Amble Regular', arial;
+    color: #000000;
+  }
+  .video {
+    display: none;
+  }
+  .creativity-button {
+    padding: 3.5rem 5rem;
+    font-size: 1.6rem;
+    font-family: 'big-john', sans-serif;
+    color: #ffffff;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+  .about-apply {
+    height: 100%;
+    padding-bottom: 3rem;
+  }
+  .contacts {
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  .contacts-block {
+    padding-top: 6rem;
+  }
+  .contacts-title {
+    font-family: 'big-john', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+  .contacts-paragraph {
+    font-family: 'Amble Regular', arial;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    margin-bottom: 4rem;
+  }
+  .contacts-link {
+    width: 100%;
+    margin-right: 2rem;
+    text-decoration: none;
+  }
+  .contacts-form {
+    padding-top: 6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #e4e4e4;
+    padding-bottom: 3rem;
+  }
+  .contacts-input {
+    border: none;
+    background-color: transparent;
+    border-bottom: 0.2rem solid #afafaf;
+    padding: 1rem 1.5rem;
+    outline: none;
+    font-family: 'Amble Regular', arial;
+    font-size: 1.3rem;
+  }
+  .contacts-name {
+    margin-right: 1rem;
+    display: inline-block;
+    margin-bottom: 8rem;
+    width: 45%;
+  }
+  .contacts-email {
+    display: inline-block;
+    width: 45%;
+  }
+  .contacts-text {
+    width: 100%;
+    display: block;
+    margin-bottom: 4rem;
+  }
+  .contacts-button {
+    padding: 1rem 3rem;
+    border: 0.3rem solid #000000;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-left: 60%;
+  }
+}
